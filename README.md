@@ -1,4 +1,4 @@
-# Module 9 Assignment(BLAST and TransDecoder)
+# BLAST and TransDecoder
 
 # Author
 
@@ -38,7 +38,7 @@ blastp[2] was run against the SwissProt database. More than one target sequence 
 
 ## Conclusions
 
-The data from the last assignment was taken to find the predicted proteins or the optimum local alignment. As the data files had mRNA sequences the Transdecoder program is run to find predicted proteins. This is done so that the output files produced from the earlier step can be used for running blast against SwissProt database. hmmscan is used to find protein domains.The files ending with **outfmt6** extension contain many details such as the *e value*, *bit score*, information about the match or hit and query information like query length, query id . The proteins are predicted.After doing blastp(we are dealing with proteins),we get a output alignedPredicted_args.txt which contain the query length, e value and so on.
+The data from the transcriptome assembly was taken to find the predicted proteins or the optimum local alignment. As the data files had mRNA sequences the Transdecoder program is run to find predicted proteins. This is done so that the output files produced from the earlier step can be used for running blast against SwissProt database. hmmscan is used to find protein domains.The files ending with **outfmt6** extension contain many details such as the *e value*, *bit score*, information about the match or hit and query information like query length, query id . The proteins are predicted.After doing blastp(we are dealing with proteins),we get a output alignedPredicted_args.txt which contain the query length, e value and so on.
 
 We get various output directories and files:
 
